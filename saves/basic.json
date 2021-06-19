@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "https://gitee.com/sun0225/photos/raw/master/img/20210616210312.jpg",
+        "wallpaper": "https://gitee.com/sun0225/photos/raw/master/img/20210619161042.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 186,
+        "idCounter": 188,
         "themeColor": "#000000",
         "autoThemeColor": false,
         "wallpapers": [
@@ -75,6 +75,10 @@
             },
             {
                 "image": "https://gitee.com/sun0225/photos/raw/master/img/20210616210312.jpg",
+                "preview": ""
+            },
+            {
+                "image": "https://gitee.com/sun0225/photos/raw/master/img/20210619161042.jpg",
                 "preview": ""
             }
         ],
@@ -158,8 +162,8 @@
             "desc": "浏览器",
             "icon": {
                 "type": "fa",
-                "content": "internet-explorer",
-                "bg": "#3a55c2"
+                "content": "fab fa-chrome",
+                "bg": ""
             },
             "openMode": "normal",
             "plugin": false,
@@ -192,7 +196,7 @@
             "icon": {
                 "type": "fa",
                 "content": "shopping-bag",
-                "bg": "#b36aba"
+                "bg": ""
             },
             "openMode": "normal",
             "plugin": false,
@@ -455,8 +459,8 @@
             "desc": "个人博客",
             "icon": {
                 "type": "img",
-                "content": "https://i.loli.net/2021/06/08/CfvzqNFHag8G3bi.jpg",
-                "bg": "rgb(46,68,115)"
+                "content": "https://gitee.com/sun0225/photos/raw/master/img/20210619165652.png",
+                "bg": ""
             },
             "openMode": "normal",
             "plugin": false,
@@ -489,7 +493,7 @@
             "icon": {
                 "type": "fa",
                 "content": "search",
-                "bg": "#1588F5"
+                "bg": ""
             },
             "openMode": "normal",
             "plugin": false,
@@ -513,16 +517,16 @@
             "customTile": "",
             "urlRandomToken": true
         },
-        "ylui-apps-calculator": {
+        "app-186": {
             "addressBar": false,
             "autoRun": 0,
             "background": false,
             "badge": 0,
-            "desc": "这是一款jquery实现简单计算器代码。该jquery计算器使用 Bootstrap 4进行布局，并结合math.js数学库，实现简单的加减乘除和平方，开方等数学计算。",
+            "desc": "",
             "icon": {
                 "type": "fa",
-                "content": "calculator",
-                "bg": "#375980"
+                "content": "fas fa-desktop",
+                "bg": ""
             },
             "openMode": "normal",
             "plugin": false,
@@ -534,56 +538,35 @@
                 "y": "y*0.05"
             },
             "version": "1.0.0",
-            "poweredBy": "素材来源于网络",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "496",
-                "width": "324"
-            },
-            "title": "科学计算器",
-            "url": "https://appstore.ylui.yuri2.cn:/apps/calculator/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-        "ylui-apps-cloud": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "YLUI官方出品。实时同步，分享你的云桌面，全平台兼容，永久免费。快速入门：填写桌面名称，生成主桌面链接和分享链接，将它们妥善保存（建议加入收藏夹）。主桌面的改动会保存在云端，共享桌面的改动不会被保存。",
-            "icon": {
-                "type": "fa",
-                "content": "cloud",
-                "bg": "#6b96cf"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "yuri2",
+            "poweredBy": "",
             "resizable": true,
             "single": false,
             "size": {
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "YLUI云桌面",
-            "url": "http://cloud.ylui.yuri2.cn:/",
+            "title": "此电脑",
+            "url": "",
             "customTile": "",
             "urlRandomToken": true
         }
     },
     "shortcuts": [
         {
+            "app": "app-186",
+            "title": "此电脑",
+            "params": {},
+            "hash": ""
+        },
+        {
             "app": "yl-browser",
             "title": "浏览器",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "ylui-apps-baidu",
+            "title": "百度一下",
             "params": {},
             "hash": ""
         },
@@ -595,19 +578,7 @@
         },
         {
             "app": "app-174",
-            "title": "小孙同学",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "ylui-apps-baidu",
-            "title": "百度一下",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "ylui-apps-calculator",
-            "title": "科学计算器",
+            "title": "sunshine",
             "params": {},
             "hash": ""
         },
@@ -747,18 +718,6 @@
             "ylui-apps-baidu": {
                 "app": "ylui-apps-baidu",
                 "title": "百度一下",
-                "params": {},
-                "hash": ""
-            },
-            "ylui-apps-calculator": {
-                "app": "ylui-apps-calculator",
-                "title": "科学计算器",
-                "params": {},
-                "hash": ""
-            },
-            "ylui-apps-cloud": {
-                "app": "ylui-apps-cloud",
-                "title": "YLUI云桌面",
                 "params": {},
                 "hash": ""
             }

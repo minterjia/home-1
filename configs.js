@@ -1,13 +1,13 @@
 YL.static = {
   /** “关于”信息 */
-  softwareName: '小孙同学的桌面', //网站名。请在此处填写您自己的网站名，如王小明的博客。
+  softwareName: '小孙同学', //网站名。请在此处填写您自己的网站名，如王小明的博客。
   version: "1.0.0", // 网站版本号
-  iconBtnStart: '', //主图标
+  iconBtnStart: 'https://gitee.com/sun0225/photos/raw/master/img/20210619165652.png', //主图标
   author: '小孙同学',//作者
   contactInformation: '1839108306@qq.com',//联系方式
   officialWebsite: 'https://sunguoqi.com',//软件官网
   welcome: '本网站UI由 YLUI 强力驱动\n更多信息：//ylui.yuri2.cn',//加载完毕控制台提示信息
-  copyrightDetail: 'YLUI',//版权详细信息
+  copyrightDetail: 'YLUI开源项目',//版权详细信息
   otherStatements: '',//其他信息（可留空）
 
   /**————————————————————————————————————————————————————————————————————————————————————————————*/
