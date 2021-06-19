@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 188,
+        "idCounter": 192,
         "themeColor": "#000000",
         "autoThemeColor": false,
         "wallpapers": [
@@ -365,9 +365,9 @@
             "icon": {
                 "type": "fa",
                 "content": "github",
-                "bg": "#292929"
+                "bg": ""
             },
-            "openMode": "outer",
+            "openMode": "normal",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -385,7 +385,7 @@
                 "width": "x*0.8"
             },
             "title": "github",
-            "url": "https://github.com:/yuri2peter/ylui",
+            "url": "https://github.com/sun0225SUN",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -550,6 +550,105 @@
                 "width": "x*0.8"
             },
             "title": "此电脑",
+            "url": "https://sunguoqi.com",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-189": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "fas fa-trash",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "回收站",
+            "url": "",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-190": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "fab fa-qq",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "QQ",
+            "url": "",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-191": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "fab fa-weixin",
+                "bg": ""
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "微信",
             "url": "",
             "customTile": "",
             "urlRandomToken": true
@@ -559,6 +658,12 @@
         {
             "app": "app-186",
             "title": "此电脑",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-189",
+            "title": "回收站",
             "params": {},
             "hash": ""
         },
@@ -575,6 +680,24 @@
             "hash": ""
         },
         {
+            "app": "app-190",
+            "title": "QQ",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-191",
+            "title": "微信",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "ylui-github",
+            "title": "github",
+            "params": {},
+            "hash": ""
+        },
+        {
             "app": "yl-app-store",
             "title": "应用商店",
             "params": {},
@@ -583,12 +706,6 @@
         {
             "app": "app-174",
             "title": "sunshine",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "ylui-github",
-            "title": "github",
             "params": {},
             "hash": ""
         }
