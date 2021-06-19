@@ -2,7 +2,7 @@ window.YL = {
   info: {
     softwareName: 'YLUI',
     version: window.yluiVersion,
-    iconBtnStart: 'yoast',
+    iconBtnStart: ' fa  fa-windows',
     author: 'Yuri2',
     contactInformation: 'yuri2peter@qq.com',
     officialWebsite: 'https://ylui.yuri2.cn',
@@ -559,7 +559,7 @@ window.YL = {
     loadScript: function (url, callback) {
       var script = document.createElement("script");
       script.type = "text/javascript";
-      if (typeof(callback) !== "undefined") {
+      if (typeof (callback) !== "undefined") {
         if (script.readyState) {
           script.onreadystatechange = function () {
             if (script.readyState === "loaded" || script.readyState === "complete") {
@@ -581,7 +581,7 @@ window.YL = {
       style.type = "text/css";
       style.rel = "stylesheet";
       style.href = url;
-      if (typeof(callback) !== "undefined") {
+      if (typeof (callback) !== "undefined") {
         if (style.readyState) {
           style.onreadystatechange = function () {
             if (style.readyState === "loaded" || script.readyState === "complete") {
@@ -643,7 +643,7 @@ window.YL = {
           callback(link);
         }
       };
-      if (typeof(callback) !== "undefined") {
+      if (typeof (callback) !== "undefined") {
         if (link.readyState) {
           link.onreadystatechange = function () {
             if (link.readyState === "loaded" || link.readyState === "complete") {
