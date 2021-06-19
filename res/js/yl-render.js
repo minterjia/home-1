@@ -210,9 +210,9 @@ YL.render = function (data) {
         that.runtime.shortcutsGrid.y = parseInt(that.runtime.desktopSize.height / that.runtime.shortcutHeight);
 
         //给窗体发送resize事件
-        that.emitWinEvent(0, 'resize',{
-          width:that.runtime.desktopSize.width,
-          height:that.runtime.desktopSize.height,
+        that.emitWinEvent(0, 'resize', {
+          width: that.runtime.desktopSize.width,
+          height: that.runtime.desktopSize.height,
         });
       },
       initRuntime: function (first) {
@@ -412,13 +412,13 @@ YL.render = function (data) {
         }
 
         //社区版提示检测
-        if (first && !YL.static.serialNumber) {
-          YL.onReady(function () {
-            setTimeout(function () {
-              YL.msg("YLUI v" + YL.info.version + " 社区版", '当前YLUI为社区版，仅限个人用户学习使用，禁止商用及企业使用。<br/>更多信息及获取商业授权请访问:<br/>YLUI官网：' + '<a style="color: white" target="_blank" href="https://ylui.yuri2.cn">https://ylui.yuri2.cn</a><p>欢迎使用支付宝扫描二维码对作者进行捐赠，表达您对YLUI的支持~<br/><br/><img style="width: 100%" src="./res/img/donation.png"/></p>');
-            }, 1500)
-          });
-        }
+        // if (first && !YL.static.serialNumber) {
+        //   YL.onReady(function () {
+        //     setTimeout(function () {
+        //       YL.msg("YLUI v" + YL.info.version + " 社区版", '当前YLUI为社区版，仅限个人用户学习使用，禁止商用及企业使用。<br/>更多信息及获取商业授权请访问:<br/>YLUI官网：' + '<a style="color: white" target="_blank" href="https://ylui.yuri2.cn">https://ylui.yuri2.cn</a><p>欢迎使用支付宝扫描二维码对作者进行捐赠，表达您对YLUI的支持~<br/><br/><img style="width: 100%" src="./res/img/donation.png"/></p>');
+        //     }, 1500)
+        //   });
+        // }
 
         this.ready = true;
       },
@@ -1136,23 +1136,23 @@ YL.render = function (data) {
       },
       desktopMouseDown: function (e) {
         this.hideOpens();
-        !e||this.emitWinEvent(0, 'desktopMouseDown',{
-          x:e.x,
-          y:e.y,
+        !e || this.emitWinEvent(0, 'desktopMouseDown', {
+          x: e.x,
+          y: e.y,
         });
       },
       desktopMouseUp: function (e) {
         this.hideOpens();
-        !e||this.emitWinEvent(0, 'desktopMouseUp',{
-          x:e.x,
-          y:e.y,
+        !e || this.emitWinEvent(0, 'desktopMouseUp', {
+          x: e.x,
+          y: e.y,
         });
       },
       desktopClick: function (e) {
         this.hideOpens();
-        !e||this.emitWinEvent(0, 'desktopClick',{
-          x:e.x,
-          y:e.y,
+        !e || this.emitWinEvent(0, 'desktopClick', {
+          x: e.x,
+          y: e.y,
         });
       },
       desktopContextMenu: function (e) {
@@ -1167,14 +1167,14 @@ YL.render = function (data) {
             that.showDesktop()
           }],
           [YL.util.getStrFa('credit-card') + YL.lang("Personalization"),
-            [
-              [YL.util.getStrFa('paint-brush') + YL.lang("ThemeColor"), function () {
-                YL.open('yl-system', { data: { nav: 'colors' } })
-              }, !YL.static.changeable],
-              [YL.util.getStrFa('picture-o') + YL.lang("Wallpaper"), function () {
-                YL.open('yl-system', { data: { nav: 'wallpaper' } })
-              }, !YL.static.changeable],
-            ]
+          [
+            [YL.util.getStrFa('paint-brush') + YL.lang("ThemeColor"), function () {
+              YL.open('yl-system', { data: { nav: 'colors' } })
+            }, !YL.static.changeable],
+            [YL.util.getStrFa('picture-o') + YL.lang("Wallpaper"), function () {
+              YL.open('yl-system', { data: { nav: 'wallpaper' } })
+            }, !YL.static.changeable],
+          ]
           ],
           [YL.util.getStrFa('cog') + YL.lang("SystemOptions"), function () {
             YL.open('yl-system')
@@ -1197,9 +1197,9 @@ YL.render = function (data) {
         ContextMenu.render(e, menu, this, "light");
       },
       desktopMouseMove: function (e) {
-        this.emitWinEvent(0, 'desktopMouseMove',{
-          x:e.x,
-          y:e.y,
+        this.emitWinEvent(0, 'desktopMouseMove', {
+          x: e.x,
+          y: e.y,
         });
       },
       shortcutOpen: function (s, id) {
@@ -1814,9 +1814,9 @@ YL.render = function (data) {
           that.contextMenuOpen(btn),
           that.contextMenuAddTo(objCopy),
           [YL.util.getStrFa('tags') + YL.lang("Rename") + "/" + YL.lang("Options"),
-            function (v) {
-              that.shortSetting = btn;
-            }, !YL.static.changeable],
+          function (v) {
+            that.shortSetting = btn;
+          }, !YL.static.changeable],
           "|",
           [
             YL.util.getStrFa('arrow-up') + YL.lang("ShiftUp"),
@@ -1928,7 +1928,7 @@ YL.render = function (data) {
           var y = e.pageY;
           that.startMenu.width += (x - startMenu.drag.x);
           (that.startMenu.width) > minWidth || (that.startMenu.width = minWidth);
-          that.startMenu.height -= (that.configs.topTaskBar?-1:1)*(y - startMenu.drag.y);
+          that.startMenu.height -= (that.configs.topTaskBar ? -1 : 1) * (y - startMenu.drag.y);
           (that.startMenu.height) > minHeight || (that.startMenu.height = minHeight);
           startMenu.drag.x = x;
           startMenu.drag.y = y;
@@ -2006,7 +2006,7 @@ YL.render = function (data) {
         var width = this.runtime.clientSize.width;
         if (this.runtime.isSmallScreen) {
           return {
-            left:  (48 + (this.runtime.menuOnLeft ? 0 : -width))+'px',
+            left: (48 + (this.runtime.menuOnLeft ? 0 : -width)) + 'px',
           }
         }
         else return {};
