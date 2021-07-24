@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "https://gitee.com/sun0225/photos/raw/master/img/20210619175447.jpg",
+        "wallpaper": "https://gitee.com/sun0225/photos/raw/master/img/20210619161042.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -83,6 +83,18 @@
             },
             {
                 "image": "https://gitee.com/sun0225/photos/raw/master/img/20210619175447.jpg",
+                "preview": ""
+            },
+            {
+                "image": "https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210628230254.jpeg",
+                "preview": ""
+            },
+            {
+                "image": "https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210628225649.jpg",
+                "preview": ""
+            },
+            {
+                "image": "https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210628225030.jpg",
                 "preview": ""
             }
         ],
